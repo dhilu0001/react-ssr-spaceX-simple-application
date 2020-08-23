@@ -13,7 +13,7 @@ This project created for a Meetup talk about Server Side Rendering with React an
 First clone project and install dependencies
 
 ```sh
-$ mkdir react-news && cd react-news
+$ mkdir react-ssr-spacex && cd react-ssr-spacex
 $ git clone https://github.com/dhilu0001/react-ssr-spaceX-simple-application.git
 $ cd react-ssr-spaceX-simple-application
 $ npm install

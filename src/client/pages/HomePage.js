@@ -46,7 +46,7 @@ const HomePage = (props) => {
   const renderYear = () => {
     return Year.map((year) => (
       <div className="col m6">
-        <div>
+        <div style={{ margin: '5px' }}>
           <a
             className="waves-effect waves-light btn"
             id="launch_year"
@@ -141,7 +141,7 @@ const HomePage = (props) => {
       {head()}
       {modal ? <ArticleDetailModal handler={closeModal} data={currentArticle} /> : null}
       <div className="row">
-        <div className="section">
+        <div className="section" style={{ textAlign: 'center' }}>
           <div className="row">
             <div class="col s3">
               <h5>Filter</h5>
